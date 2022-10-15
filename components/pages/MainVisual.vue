@@ -41,8 +41,9 @@ export default {
 
 .main-visual img {
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   object-fit: cover;
+  object-position: 50% 100%;
 }
 
 .main-visual h2 {
@@ -97,7 +98,9 @@ export default {
 @media screen and (min-width: 768px) {
   .main-visual img {
     max-width: 1920px;
-    height: 700px;
+    height: 500px;
+    object-fit: cover;
+    object-position: 100% 100%;
   }
   
   .main-visual h2 {

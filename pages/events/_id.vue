@@ -8,7 +8,7 @@
           <div class="key-visual">
             <img :src="image" alt="">
           </div>
-        
+          <p>{{ eventId }}</p>
           <div class="title">
             <h2>{{ title }}</h2>
           </div>
@@ -37,7 +37,7 @@
               <img src="@/assets/img/orizuru.png" alt="orizuru">
               <span class="topic-text">ノコス。ツタエル。</span>
             </h3>
-            <div class="wrapper">
+            <!-- <div class="wrapper">
               <div class="card">
                 <img class="card-image" src="img/thumnail.JPG">
                 <div class="card-content">
@@ -45,7 +45,7 @@
                   <p class="card-text">テストテストテストテスト</p>
                 </div>
               </div>
-            </div>
+            </div> -->
           </section>
         </section>
       </main>
@@ -59,6 +59,7 @@ import LHeader from '~/components/layouts/LHeader.vue';
 export default {
   data() {
     return {
+      eventId: '',
       currentUID: null,
     };
   },

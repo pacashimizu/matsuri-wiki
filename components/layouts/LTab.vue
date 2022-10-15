@@ -185,6 +185,7 @@ export default {
   margin: 0 auto 50px;
   background-color: #101315;
   text-align: center;
+  justify-content: center;
 }
 
 input[name="tab-item"] {
@@ -193,7 +194,7 @@ input[name="tab-item"] {
 
 .tab-item {
   position: relative;
-  width: 100%;
+  width: 80%;
   padding: 10px 20px;
   background-color: #101315;
   color: #F8F5F0;
@@ -230,7 +231,7 @@ input[name="tab-item"] {
 
 .tab-content {
   display: none;
-  width: 100%;
+  width: 80%;
   padding: 10px 0;
   background-color: #F8F5F0;
   color: #101315;
@@ -263,6 +264,7 @@ input[name="tab-item"] {
   }
 
   .tab-content {
+    width: 100%;
     order: 99;
   }
 } 

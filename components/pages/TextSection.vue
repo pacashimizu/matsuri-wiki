@@ -31,6 +31,11 @@ export default {
   vertical-align: middle;
 }
 
+.col p {
+  margin: 0 auto;
+  width: 80%;
+}
+
 .heading-topic {
   display: flex;
   position: relative;

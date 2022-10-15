@@ -5,7 +5,13 @@
       </div>
         <main>
           <main-visual :currentUser="currentUID" />
-          <l-tab :events="events" />
+          <section class="col">
+            <h3 class="heading-topic">
+              <img src="@/assets/img/orizuru.png" alt="orizuru">
+              <span class="topic-text">イベント情報</span>
+            </h3>
+            <l-tab :events="events" />
+          </section>
           <text-section />
         </main>
     </div>
@@ -65,9 +71,22 @@ export default {
 </script>
 
 <style scoped>
-.section {
+.col {
   max-width: 1000px;
   margin: 0 auto 50px;
-  padding: 0 10px;
+  vertical-align: middle;
+}
+
+.heading-topic {
+  display: flex;
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.topic-text {
+  margin-left: 10px;
 }
 </style>
