@@ -25,15 +25,17 @@
       </div>
       <ul class="card-list">
         <li class="card" v-for="{ id, title, prefecture, image } in kitanihon" :key='id'>
-          <a href="">
-            <figure class="card-image">
-              <img :src="image">
-            </figure>
-            <div class="card-text">
-              <h3 class="card-title">{{ title }}</h3>
-              <p>{{ prefecture }}</p>
-            </div>
-          </a>
+          <nuxt-link :to="`/events/${id}`">
+            <a href="">
+              <figure class="card-image">
+                <img :src="image">
+              </figure>
+              <div class="card-text">
+                <h3 class="card-title">{{ title }}</h3>
+                <p>{{ prefecture }}</p>
+              </div>
+            </a>
+          </nuxt-link>
         </li>
       </ul>
     </div>
@@ -45,15 +47,17 @@
       </div>
       <ul class="card-list">
         <li class="card" v-for="{ id, title, prefecture, image } in kanto" :key='id'>
-          <a href="">
-            <figure class="card-image">
-              <img :src="image">
-            </figure>
-            <div class="card-text">
-              <h3 class="card-title">{{ title }}</h3>
-              <p>{{ prefecture }}</p>
-            </div>
-          </a>
+          <nuxt-link :to="`/events/${id}`">
+            <a href="">
+              <figure class="card-image">
+                <img :src="image">
+              </figure>
+              <div class="card-text">
+                <h3 class="card-title">{{ title }}</h3>
+                <p>{{ prefecture }}</p>
+              </div>
+            </a>
+          </nuxt-link>
         </li>
       </ul>
     </div>
@@ -65,15 +69,17 @@
       </div>
       <ul class="card-list">
         <li class="card" v-for="{ id, title, prefecture, image } in chubu" :key='id'>
-          <a href="">
-            <figure class="card-image">
-              <img :src="image">
-            </figure>
-            <div class="card-text">
-              <h3 class="card-title">{{ title }}</h3>
-              <p>{{ prefecture }}</p>
-            </div>
-          </a>
+          <nuxt-link :to="`/events/${id}`">
+            <a href="">
+              <figure class="card-image">
+                <img :src="image">
+              </figure>
+              <div class="card-text">
+                <h3 class="card-title">{{ title }}</h3>
+                <p>{{ prefecture }}</p>
+              </div>
+            </a>
+          </nuxt-link>
         </li>
       </ul>
     </div>
@@ -85,15 +91,17 @@
       </div>
       <ul class="card-list">
         <li class="card" v-for="{ id, title, prefecture, image } in kansai" :key='id'>
-          <a href="">
-            <figure class="card-image">
-              <img :src="image">
-            </figure>
-            <div class="card-text">
-              <h3 class="card-title">{{ title }}</h3>
-              <p>{{ prefecture }}</p>
-            </div>
-          </a>
+          <nuxt-link :to="`/events/${id}`">
+            <a href="">
+              <figure class="card-image">
+                <img :src="image">
+              </figure>
+              <div class="card-text">
+                <h3 class="card-title">{{ title }}</h3>
+                <p>{{ prefecture }}</p>
+              </div>
+            </a>
+          </nuxt-link>
         </li>
       </ul>
     </div>
@@ -105,15 +113,17 @@
       </div>
       <ul class="card-list">
         <li class="card" v-for="{ id, title, prefecture, image } in chushikoku" :key='id'>
-          <a href="">
-            <figure class="card-image">
-              <img :src="image">
-            </figure>
-            <div class="card-text">
-              <h3 class="card-title">{{ title }}</h3>
-              <p>{{ prefecture }}</p>
-            </div>
-          </a>
+          <nuxt-link :to="`/events/${id}`">
+            <a href="">
+              <figure class="card-image">
+                <img :src="image">
+              </figure>
+              <div class="card-text">
+                <h3 class="card-title">{{ title }}</h3>
+                <p>{{ prefecture }}</p>
+              </div>
+            </a>
+          </nuxt-link>
         </li>
       </ul>    </div>
     <input id="south-jpn" type="radio" name="tab-item">
@@ -124,15 +134,17 @@
       </div>
       <ul class="card-list">
         <li class="card" v-for="{ id, title, prefecture, image } in kyushu" :key='id'>
-          <a href="">
-            <figure class="card-image">
-              <img :src="image">
-            </figure>
-            <div class="card-text">
-              <h3 class="card-title">{{ title }}</h3>
-              <p>{{ prefecture }}</p>
-            </div>
-          </a>
+          <nuxt-link :to="`/events/${id}`">
+            <a href="">
+              <figure class="card-image">
+                <img :src="image">
+              </figure>
+              <div class="card-text">
+                <h3 class="card-title">{{ title }}</h3>
+                <p>{{ prefecture }}</p>
+              </div>
+            </a>
+          </nuxt-link>
         </li>
       </ul>
     </div>
